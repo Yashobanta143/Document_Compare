@@ -1,4 +1,3 @@
-# Document_Compare
 Document Compare App
 ================
 Effortless Document Comparison for Enhanced Productivity
