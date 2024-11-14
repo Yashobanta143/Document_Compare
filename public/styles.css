@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 0 39%;
+    padding: auto;
+    color: #6cb1d8;
+}
+
+h2 {
+    margin-left: 46%;
+    color: #6cb1d8;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+#document-form {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    padding-right: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#document-upload {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#sample-document-upload {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#compare-button {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#compare-button:hover {
+    background-color: #3e8e41;
+}
+
+#comparison-result {
+    width: 55%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.object-container {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  
+  
+  
+  

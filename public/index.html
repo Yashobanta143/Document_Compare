@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Comparison</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://npmcdn.com/pdfjs-dist/build/pdf.js"></script>
+</head>
+<body>
+    <h1>Document Comparison</h1>
+    <form id="document-form">
+        <label for="sample-document-upload">Sample Document
+            <input type="file" id="sample-document-upload" accept=".pdf, .docx, .doc" required>
+        </label>
+        <label for="document-upload">New Document
+            <input type="file" id="document-upload" accept=".pdf, .docx, .doc" required>
+        </label>
+        <button type="button" id="compare-button" disabled>Compare</button>
+    </form>
+    <h2>Result</h2>
+    <div id="comparison-result"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
